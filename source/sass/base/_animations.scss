@@ -1,0 +1,6 @@
+$animation-duration: 0.2s;
+
+@keyframes mobile-menu {
+  0% { transform: translateX(-2000px); }
+  100% { transform: translateX(0); }
+}
