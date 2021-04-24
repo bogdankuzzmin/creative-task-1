@@ -5,12 +5,12 @@ body {
 body, input, select, textarea {
   font-size: 18px;
   font-family: $family;
-  font-weight: 400;
+  font-weight: $weight-normal;
   color: $text-color;
 }
 
 a {
-  font-weight: 600;
+  font-weight: $weight-medium;
   color: $link-color;
   text-decoration: none;
 
@@ -27,7 +27,7 @@ a {
 }
 
 strong, b {
-  font-weight: 700;
+  font-weight: $weight-bold;
   color: $text-color;
 }
 
@@ -38,7 +38,7 @@ em, i {
 h1, h2, h3, h4, h5, h6 {
   color: $text-color;
   font-family: $family-title;
-  font-weight: 700;
+  font-weight: $weight-bold;
   line-height: 1.2;
   letter-spacing: -0.02em;
 
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 200px;
-  font-weight: 900;
+  font-weight: $weight-boldest;
   line-height: 1.70;
 }
 
